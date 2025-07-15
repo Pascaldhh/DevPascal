@@ -39,7 +39,7 @@ export default function Footer({
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </Link>
             <Link
-              href="mailto:haan.pascal@hotmail.com"
+              href="mailto:me@devpascal.nl"
               className="transition-colors hover:text-red-primary-600"
             >
               <FontAwesomeIcon icon={faEnvelope} size="xl" />

@@ -75,10 +75,14 @@ export default function HomePage() {
               </p>
               <div className="mt-4 flex flex-col items-center gap-4 md:mt-7 md:items-start xl:flex-row xl:items-center xl:justify-between">
                 <div className="flex gap-4">
-                  <Link href="/work" className="btn btn-primary">
+                  <Link href="#work" className="btn btn-primary">
                     View work
                   </Link>
-                  <Link href="/resume" className="btn btn-secondary">
+                  <Link
+                    href="https://www.linkedin.com/in/pascal-de-haan/"
+                    target="_blank"
+                    className="btn btn-secondary"
+                  >
                     Resume
                   </Link>
                 </div>
@@ -98,7 +102,7 @@ export default function HomePage() {
                     <FontAwesomeIcon icon={faLinkedin} size="xl" />
                   </Link>
                   <Link
-                    href="mailto:haan.pascal@hotmail.com"
+                    href="mailto:me@devpascal.nl"
                     className="transition-colors hover:text-blue-600"
                   >
                     <FontAwesomeIcon icon={faEnvelope} size="xl" />
@@ -143,17 +147,17 @@ export default function HomePage() {
               <hr className="w-full border-b-0 border-l-0 border-r-0 border-t-[3.5px] border-dashed border-blue-800 lg:w-[60%]" />
             </div>
             <p>
-              I hit the gym three times a week. Outside the tech world, I enjoy
+              I hit the gym four times a week. Outside the tech world, I enjoy
               the challenge of solving Rubik&apos;s cubes.
             </p>
           </div>
         </div>
-        <Link
+        {/* <Link
           href="/about"
           className="btn btn-primary mt-10 inline-block md:mt-20"
         >
           Find out more
-        </Link>
+        </Link> */}
       </section>
       <section id="skills" className="pt-[5.8rem]">
         <div className="relative bg-gradient-to-b from-red-primary-400 to-red-primary-500 py-8">
@@ -171,12 +175,12 @@ export default function HomePage() {
         <div className="text-center lg:text-left">
           <div className="container-small lg:flex lg:items-center lg:justify-between">
             <h2>Checkout my work</h2>
-            <Link
+            {/* <Link
               href="/work"
               className="btn btn-primary hidden lg:inline-block"
             >
               See all work
-            </Link>
+            </Link> */}
           </div>
           <WorkSlider className="mb-10 mt-8 md:mb-14 md:mt-12">
             <WorkInfo
@@ -211,9 +215,9 @@ export default function HomePage() {
               liveUrl="http://demo2.devpascal.nl/"
             />
           </WorkSlider>
-          <Link href="/work" className="btn btn-primary lg:hidden">
+          {/* <Link href="/work" className="btn btn-primary lg:hidden">
             See all work
-          </Link>
+          </Link> */}
         </div>
       </section>
       <section id="contact" className="pt-[5.8rem]">

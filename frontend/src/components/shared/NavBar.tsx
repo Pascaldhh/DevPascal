@@ -22,9 +22,9 @@ export default function NavBar() {
 
   const menuItems = {
     Home: "/",
-    About: "/about",
-    Work: "/work",
-    Resume: "/resume",
+    // About: "/about",
+    // Work: "/work",
+    // Resume: "/resume",
     Contact: "/contact",
   };
   const animationObjects = 20;
