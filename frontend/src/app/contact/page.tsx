@@ -2,7 +2,12 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import ContactForm from "@/components/common/ContactForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact | devpascal",
+  description: "The website made by devpascal",
+};
 
 export default function ContactPage() {
   return (
@@ -13,23 +18,23 @@ export default function ContactPage() {
             <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
               <h1>Contact</h1>
               <p className="mt-4 max-w-md font-medium">
-                Drop me a message below, and let&apos;s start building something
+                Drop me a message, and let&apos;s start building something
                 amazing together!
               </p>
-              <ContactForm />
+              {/* <ContactForm /> */}
             </div>
             <div className="">
               <div className="mt-16">
                 <h2>Contact information</h2>
                 <div className="mt-2 flex flex-col gap-2 font-medium">
                   <Link
-                    href="mailto:haan.pascal@hotmail.com"
+                    href="mailto:me@devpascal.nl"
                     className="flex items-center gap-4"
                   >
                     <div className="w-8 text-center">
                       <FontAwesomeIcon icon={faEnvelope} size="lg" />
                     </div>
-                    <p className="text-lg">haan.pascal@hotmail.com</p>
+                    <p className="text-lg">me@devpascal.nl</p>
                   </Link>
                   <div className="flex items-center gap-4">
                     <div className="w-8 text-center">
