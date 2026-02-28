@@ -19,7 +19,7 @@ export default function Footer({
       <div className="flex flex-col justify-between gap-y-3 md:flex-row md:gap-y-0">
         <div className={`${classNameCopy} order-2 md:order-1`}>
           <p className="text-center font-medium md:text-left">
-            &copy; 2024 Pascal de Haan, All rights reserved.
+            &copy; 2026 Pascal de Haan, All rights reserved.
           </p>
         </div>
         <div className={`${classNameIcons} order-1 md:order-2`}>
